@@ -25,18 +25,42 @@ API课程期末项目
 3. 多维统一的交通指标体系：针对目前交通评价多种角度冲突的问题，统一交通运行状态、交通优化、交通服务水平等评价模型和标准，实现发现问题、分析问题、治理问题、治理效果的全链路评价体系
 
 #### 5.需求列表与人工智能API加值
-用户需求|API接口|价值排序|是否智能加值
---|:--|:--
-随时随地获取一幅画作的信息|通用物体和场景识别API|重要
-观展前获取馆内的实时人流量|人流量统计API|重要
-前往展馆前查询周边路况|交通态势API|次重要
+用户需求|API接口|价值排序|智能加值
+--|:--|:--|:--
+随时随地获取一幅画作的信息|通用物体和场景识别API|重要|是
+观展前获取馆内的实时人流量|人流量统计API|重要|是
+前往展馆前查询周边路况|交通态势API|次重要|是
 
 #### 用户分析及应用场景
 1. 目标用户群：无特定年龄阶段，一般为18岁以上的学生和上班族，兴趣爱好偏向艺术领域。
 
 2. 用户画像及使用场景
 <img src="https://github.com/ICXIE/API_final/blob/master/yonghuhuaxiang1.png?raw=true" width = "400" height = "250" alt="" align=center />
-* 场景一：莹莹周末和儿子一起逛商场，商场的通道挂着大大的画展广告牌，儿子对广告牌上的画很感兴趣并指着广告牌上的图案问莹莹那是什么，莹莹一时回答不上来又担心误导孩子，这时候莹莹拿起手机打开Art Platform对着广告牌上的画画进行放大拍照扫描，得到画作的相关正确信息并告诉孩儿子；
-* 场景二：莹莹察觉到儿子对画作的兴趣，打算带上孩子去场馆观展，但由于孩子还小身高不高，如果遇到馆内有太多人的情况下则会影响到孩子的观感体验，为了错峰观展，妈妈使用Art Platform查看展馆内的实时人流量并推测是否适合在当下带孩子去观展；
+● 场景一：莹莹周末和儿子一起逛商场，商场的通道挂着大大的画展广告牌，儿子对广告牌上的画很感兴趣并指着广告牌上的图案问莹莹那是什么，莹莹一时回答不上来又担心误导孩子，这时候莹莹拿起手机打开Art Platform对着广告牌上的画画进行放大拍照扫描，得到画作的相关正确信息并告诉孩儿子；     
+● 场景二：莹莹察觉到儿子对画作的兴趣，打算带上孩子去场馆观展，但由于孩子还小身高不高，如果遇到馆内有太多人的情况下则会影响到孩子的观感体验，为了错峰观展，妈妈使用Art Platform查看展馆内的实时人流量并推测是否适合在当下带孩子去观展；    
 <img src="https://github.com/ICXIE/API_final/blob/master/yonghuhuaxiang2.png?raw=true" width = "400" height = "250" alt="" align=center />
-* 上班族天天，平时喜欢艺术，周末想自驾去离家较近的场馆观展，但由于休息日担心路上塞车，希望可以节省时间成本到达目的地，他打开Art Platform定位到展馆，并且通过交通态势反馈得知场馆周边道路的实时路况，最终选择了路况最优的路线。
+● 场景一：上班族天天，平时喜欢艺术，周末想自驾去离家较近的场馆观展，但由于休息日担心路上塞车，希望可以节省时间成本到达目的地，他打开Art Platform定位到展馆，并且通过交通态势反馈得知场馆周边道路的实时路况，最终选择了路况最优的路线。  
+
+## 产品原型
+### 产品架构图
+![](https://github.com/ICXIE/API_final/blob/master/Art+Platform.png?raw=true)
+
+### 产品流程图（针对智能加值设计）
+<img src="https://github.com/ICXIE/API_final/blob/master/%E4%BA%A7%E5%93%81%E6%99%BA%E8%83%BD%E4%BA%A4%E4%BA%92%E6%B5%81%E7%A8%8B%E5%9B%BE.png?raw=true"/>
+
+### 数据流程图
+<img src="https://github.com/ICXIE/API_final/blob/master/%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B%E5%9B%BE.png?raw=true"/>
+
+### 界面及交互设计
+![](https://github.com/ICXIE/API_final/blob/master/icon%E5%9B%BE.png?raw=true)
+![](https://github.com/ICXIE/API_final/blob/master/%E4%BA%A4%E4%BA%92%E5%8F%8A%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A11.png?raw=true)
+#### 打开Art Platform的首页既是画作以瀑布流形式呈现的页面，用户在该页面点击画作图片即可进入画作详情页查看更多信息。
+![](https://github.com/ICXIE/API_final/blob/master/%E4%BA%A4%E4%BA%92%E5%8F%8A%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A12.png?raw=true)
+#### 首页的顶部标签栏分为"画作"与"场馆"，点击"场馆"即可看到场馆信息列表，场馆推荐以城市为基础，如用户的城市在广州，则陈列广州的场馆信息；用户看到希望了解更多的场馆名称时，即可点击进入场馆详情页，该页面会以热力图的形式呈现场馆的实时人流量（拥挤/稀疏），用户还可以得知场馆周边的实时基本路况（拥挤/稀疏）。
+![](https://github.com/ICXIE/API_final/blob/master/%E4%BA%A4%E4%BA%92%E4%B8%8E%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A13.png?raw=true)
+#### 首页的底部标签栏分为"首页"、"识图"与"我的"，点击"识图"即可进入拍照识图功能界面，用户还可以选择相册中的图片进行扫描识别。
+<img src="https://github.com/ICXIE/API_final/blob/master/%E4%B8%AA%E4%BA%BA%E7%95%8C%E9%9D%A2%E5%9B%BE.png?raw=true" width = "600" height = "1050" alt="" align=center />
+
+### 信息设计
+<img src="https://github.com/ICXIE/API_final/blob/master/%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A11.png?raw=true" width = "600" height = "680" alt="" align=center />
+<img src="https://github.com/ICXIE/API_final/blob/master/%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A12.png?raw=true" width = "600" height = "700" alt="" align=center />
