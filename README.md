@@ -11,7 +11,7 @@ API课程期末项目
 简易性|前往一个地点，可以提前获知途经道路的路况，使用本产品可以快速获知交通态势以选择最优路线
 
 #### 4.人工智能概率性
-* [百度智能云](https://cloud.baidu.com/product/imagerecognition/general)：通用物品和产品识别
+* [百度智能云](https://cloud.baidu.com/product/imagerecognition/general)：通用物体和场景识别
 1. 识别精准：基于海量数据，利用深度学习技术及高精度算法不断迭代模型，准确率行业领先
 2. 稳定高效：算法适应多种场景，具有较好的抗干扰能力，运行稳定，并支持毫秒级的识别响应能力，快速高效
 3. 简单易用：支持标准化接口封装，调用简单，只需上传单张图片，即可获取识别结果
@@ -64,3 +64,13 @@ API课程期末项目
 ### 信息设计
 <img src="https://github.com/ICXIE/API_final/blob/master/%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A11.png?raw=true" width = "600" height = "680" alt="" align=center />
 <img src="https://github.com/ICXIE/API_final/blob/master/%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A12.png?raw=true" width = "600" height = "700" alt="" align=center />
+
+## API使用展示
+### 通用物体和场景识别
+![](https://github.com/ICXIE/API_final/blob/master/wutiapi.png?raw=true)
+
+### 人流量统计
+![](https://github.com/ICXIE/API_final/blob/master/renliuapi.png?raw=true)
+
+### 交通态势
+![](https://github.com/ICXIE/API_final/blob/master/jiaotongapi.png?raw=true)
