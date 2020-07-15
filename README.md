@@ -74,3 +74,17 @@ API课程期末项目
 
 ### 交通态势
 ![](https://github.com/ICXIE/API_final/blob/master/jiaotongapi.png?raw=true)
+
+## API使用对比
+### 百度智能云平台：https://cloud.baidu.com/product/imagerecognition/general
+![](https://github.com/ICXIE/API_final/blob/master/baiduwuti.png?raw=true)
+### 阿里云开发平台：https://ai.qq.com/product/face.shtml#multiface
+![](https://github.com/ICXIE/API_final/blob/master/aliyunwuti.png?raw=true)
+#### 对比总结：与阿里云的图像识别结果相比，百度智能云的通用物体和场景识别之后得出的信息更加全面，识别结果更为准确；百度的通用物体和场景识别中拍照识物功能更符合本项目的需求。
+
+### 百度AI开发平台：https://ai.baidu.com/tech/body/num
+![](https://github.com/ICXIE/API_final/blob/master/baidurenlian.png?raw=true)
+### 腾讯AI开发平台：https://ai.qq.com/product/face.shtml#multiface
+![](https://github.com/ICXIE/API_final/blob/master/tengxunrenlian.png?raw=true)
+#### 对比总结：腾讯AI的多人人脸检测api的输出结果为人脸识别列表，此功能要求图像中的人体需有正脸显示才得以被识别，由于输出结果悬殊故不太适用于人流量识别功能中，而百度AI的人流量统计api为高精度头肩检测算法，无需正脸、全身照，适用于人流密集场所，输出结果是人流量的具体数据，与腾讯AI相比结果更加精准。
+
