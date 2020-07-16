@@ -42,7 +42,7 @@ API课程期末项目
 ● 场景一：上班族天天，平时喜欢艺术，周末想自驾去离家较近的场馆观展，但由于休息日担心路上塞车，希望可以节省时间成本到达目的地，他打开Art Platform定位到展馆，并且通过交通态势反馈得知场馆周边道路的实时路况，最终选择了路况最优的路线。  
 
 ## 产品原型
-### 展示页面链接：https://icxie.github.io/API-prototype/Art Platform
+### 展示页面链接：https://icxie.github.io/API-prototype/ArtPlatform
 ### 产品架构图
 ![](https://github.com/ICXIE/API_final/blob/master/Art+Platform.png?raw=true)
 
