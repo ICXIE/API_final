@@ -147,4 +147,10 @@ API课程期末项目
 ##### [Axure官网](https://www.axure.com/)
 
 ### [迭代一最新版本——最新修改为更新实践心得](https://github.com/ICXIE/API_final/commit/444f0c26d2641a4a30dc38545e5ceefb47b1c3b9)
-### [迭代二最新版本——主要改善为上传了API调用过程示例图/利益相关者图/更新系统偏差分析/ESG问题分析]()
+### [迭代二最新版本——主要改善为上传了API调用过程示例图/利益相关者图/更新系统偏差分析/ESG问题分析](https://github.com/ICXIE/API_final/commit/93063bea5d62ba37815d9d27f828a6ccdc5e851d)
+### [产品迭代二过程一览](https://github.com/ICXIE/API_final/commits/master)
+时间|要点
+--|:--:
+2020.07.21|增加API调用过程图示与利益相关者图
+2020.07.22|更新20X20PPT
+2020.07.24|更新系统性偏差分析及ESG问题分析，完善措辞
