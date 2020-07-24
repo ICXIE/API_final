@@ -41,7 +41,7 @@ API课程期末项目
 #### 用户分析及应用场景
 1. 目标用户群：无特定年龄阶段，一般为18岁以上的学生和上班族，兴趣爱好偏向艺术领域。
 
-2. 用户画像及使用场景
+2. 用户画像及使用情境具体说明
 <img src="https://github.com/ICXIE/API_final/blob/master/yonghuhuaxiang1.png?raw=true" width = "400" height = "250" alt="" align=center />
 ● 场景一：莹莹周末和儿子一起逛商场，商场的通道挂着大大的画展广告牌，儿子对广告牌上的画很感兴趣并指着广告牌上的图案问莹莹那是什么，莹莹一时回答不上来又担心误导孩子，这时候莹莹拿起手机打开Art Platform对着广告牌上的画画进行放大拍照扫描，得到画作的相关正确信息并告诉孩儿子；     
 ● 场景二：莹莹察觉到儿子对画作的兴趣，打算带上孩子去场馆观展，但由于孩子还小身高不高，如果遇到馆内有太多人的情况下则会影响到孩子的观感体验，为了错峰观展，妈妈使用Art Platform查看展馆内的实时人流量并推测是否适合在当下带孩子去观展；    
@@ -56,13 +56,13 @@ API课程期末项目
 ### 产品架构图
 ![](https://github.com/ICXIE/API_final/blob/master/Art+Platform.png?raw=true)
 
-### 产品流程图（针对智能加值设计）
+### 用户旅程地图（针对智能加值设计）
 <img src="https://github.com/ICXIE/API_final/blob/master/%E4%BA%A7%E5%93%81%E6%99%BA%E8%83%BD%E4%BA%A4%E4%BA%92%E6%B5%81%E7%A8%8B%E5%9B%BE.png?raw=true"/>
 
 ### 数据流程图
 <img src="https://github.com/ICXIE/API_final/blob/master/%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B%E5%9B%BE.png?raw=true"/>
 
-### 界面及交互设计
+### 界面及交互设计输入/输出细节
 ![](https://github.com/ICXIE/API_final/blob/master/icon%E5%9B%BE.png?raw=true)
 ![](https://github.com/ICXIE/API_final/blob/master/%E4%BA%A4%E4%BA%92%E5%8F%8A%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A11.png?raw=true)
 #### 打开Art Platform的首页既是画作以瀑布流形式呈现的页面，用户在该页面点击画作图片即可进入画作详情页查看更多信息。
@@ -72,11 +72,11 @@ API课程期末项目
 #### 首页的底部标签栏分为"首页"、"识图"与"我的"，点击"识图"即可进入拍照识图功能界面，用户还可以选择相册中的图片进行扫描识别。
 <img src="https://github.com/ICXIE/API_final/blob/master/%E4%B8%AA%E4%BA%BA%E7%95%8C%E9%9D%A2%E5%9B%BE.png?raw=true" width = "500" height = "900" alt="" align=center />
 
-### 信息设计
+### 信息设计(关键智能交互技术细节)
 <img src="https://github.com/ICXIE/API_final/blob/master/%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A11.png?raw=true" width = "600" height = "680" alt="" align=center />
 <img src="https://github.com/ICXIE/API_final/blob/master/%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A12.png?raw=true" width = "600" height = "700" alt="" align=center />
 
-## API使用展示
+## API使用展示(代码及数据展示加值)
 ### API调用过程示例
 ![](https://github.com/ICXIE/API_final/blob/master/API%E8%B0%83%E7%94%A8%E8%BF%87%E7%A8%8B%E7%A4%BA%E4%BE%8B.png?raw=true)
 ### 图像识别——通用物体和场景识别API
@@ -123,6 +123,8 @@ API课程期末项目
 ### Feasibility（技术可行性）：
 * 具有明确的核心价值和满足用户的使用需求；
 * 与其他多人检测对比之后，本产品使用的人流量检测技术精准度高，满足用户痛点的使用场景；
+* 具有明显产品优势与稳定高效的调用服务，具体可参考上方*人工智能概率性分析；
+
 ### Desirability（用户可欲性）：
 * 用户需求显著，本产品的最小可行性功能满足用户基本需求；
 * 用户群体广泛，且可获取的信息量较全面，产品的市场未来需求趋势在逐步增长。
@@ -137,9 +139,12 @@ API课程期末项目
 ##### [百度AI开发平台之人流量统计](https://ai.baidu.com/tech/body/num)
 ##### [高德开放平台之交通态势](https://lbs.amap.com/api/webservice/guide/api/trafficstatus/?sug_index=2)
 
-* 此外，本项目得完成还参考了往年师姐的作品，在一定程度上为我的产品需求文档制作提供帮助，在此向其表示感谢，以下是我参考的作品链接：
+* 此外，本项目得以完成还参考了往年师姐的作品以及已上线的同领域产品，在一定程度上为我的产品需求文档制作提供帮助，在此向其表示感谢，以下是我参考的作品链接以及相关产品链接：
 ##### [詹晓燕师姐的作品](https://github.com/xlayal/Art_Gallery_Tour)
-
-* 最后，还要感谢协作工具，本项目原创图标的制作网站Process On以及Axure原型制作工具
+##### [Vart](http://www.vart.cc/)
+* 最后，还要感谢协作工具，本项目原创图标的制作网站Process On以及Axure原型制作工具：
 ##### [Process On官网](https://www.processon.com/)
 ##### [Axure官网](https://www.axure.com/)
+
+### [迭代一最新版本——最新修改为更新实践心得](https://github.com/ICXIE/API_final/commit/444f0c26d2641a4a30dc38545e5ceefb47b1c3b9)
+### [迭代二最新版本——主要改善为上传了API调用过程示例图/利益相关者图/更新系统偏差分析/ESG问题分析]()
