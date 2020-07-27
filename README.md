@@ -12,7 +12,7 @@ API课程期末项目
 便捷性|观赏一个展览，最怕的就是遇到浏览高峰时间段，使用本产品即可获得馆内人流密度实时情况
 简易性|前往一个场馆之前可以获知途经道路的路况，使用本产品可以简便的知道场馆周边道路的交通态势以选择最优路线
 
-#### 4.人工智能概率性
+#### 4.从产品优势角度考量人工智能概率性
 * [百度智能云](https://cloud.baidu.com/product/imagerecognition/general)：通用物体和场景识别
 1. 识别精准：基于海量数据，利用深度学习技术及高精度算法不断迭代模型，准确率行业领先
 2. 稳定高效：算法适应多种场景，具有较好的抗干扰能力，运行稳定，并支持毫秒级的识别响应能力，快速高效
@@ -39,10 +39,10 @@ API课程期末项目
 
 2. 用户画像及使用情境具体说明
 <img src="https://github.com/ICXIE/API_final/blob/master/yonghuhuaxiang1.png?raw=true" width = "400" height = "250" alt="" align=center />
-● 场景一：莹莹周末和儿子一起逛商场，商场的通道挂着大大的画展广告牌，儿子对广告牌上的画很感兴趣并指着广告牌上的图案问莹莹那是什么，莹莹一时回答不上来又担心误导孩子，这时候莹莹拿起手机打开Art Platform对着广告牌上的画画进行放大拍照扫描，得到画作的相关正确信息并告诉孩儿子；     
-● 场景二：莹莹察觉到儿子对画作的兴趣，打算带上孩子去场馆观展，但由于孩子还小身高不高，如果遇到馆内有太多人的情况下则会影响到孩子的观感体验，为了错峰观展，妈妈使用Art Platform查看展馆内的实时人流量并推测是否适合在当下带孩子去观展；    
+* 具体使用情境一：莹莹周末和儿子一起逛商场，商场的通道挂着大大的画展广告牌，儿子对广告牌上的画很感兴趣并指着广告牌上的图案问莹莹那是什么，莹莹一时回答不上来又担心误导孩子，这时候莹莹拿起手机打开Art Platform对着广告牌上的画画进行放大拍照扫描，得到画作的相关正确信息并告诉孩儿子；     
+* 具体使用情境二：莹莹察觉到儿子对画作的兴趣，打算带上孩子去场馆观展，但由于孩子还小身高不高，如果遇到馆内有太多人的情况下则会影响到孩子的观感体验，为了错峰观展，妈妈使用Art Platform查看展馆内的实时人流量并推测是否适合在当下带孩子去观展；    
 <img src="https://github.com/ICXIE/API_final/blob/master/yonghuhuaxiang2.png?raw=true" width = "400" height = "250" alt="" align=center />
-● 场景一：上班族天天，平时喜欢艺术，周末想自驾去离家较近的场馆观展，但由于休息日担心路上塞车，希望可以节省时间成本到达目的地，他打开Art Platform定位到展馆，并且通过交通态势反馈得知场馆周边道路的实时路况，最终选择了路况最优的路线。  
+* 具体使用情境一：上班族天天，平时喜欢艺术，周末想自驾去离家较近的场馆观展，但由于休息日担心路上塞车，希望可以节省时间成本到达目的地，他打开Art Platform定位到展馆，并且通过交通态势反馈得知场馆周边道路的实时路况，最终选择了路况最优的路线。  
 
 #### 利益相关者图
 ![](https://github.com/ICXIE/API_final/blob/master/%E5%88%A9%E7%9B%8A%E7%9B%B8%E5%85%B3%E8%80%85.png?raw=true)
@@ -59,10 +59,10 @@ APP拥有者 |利 > 害：APP下载量可为拥有者获取收益 | 调用三个
 ### 产品架构图
 ![](https://github.com/ICXIE/API_final/blob/master/Art+Platform.png?raw=true)
 
-### 用户旅程地图（针对智能加值设计）
+### 产品流程图（针对智能加值设计）
 <img src="https://github.com/ICXIE/API_final/blob/master/%E4%BA%A7%E5%93%81%E6%99%BA%E8%83%BD%E4%BA%A4%E4%BA%92%E6%B5%81%E7%A8%8B%E5%9B%BE.png?raw=true"/>
 
-### 数据流程图
+### 数据流程图（针对智能加值设计）
 <img src="https://github.com/ICXIE/API_final/blob/master/%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B%E5%9B%BE.png?raw=true"/>
 
 ### 界面及交互设计输入/输出细节
@@ -97,11 +97,10 @@ APP拥有者 |利 > 害：APP下载量可为拥有者获取收益 | 调用三个
 * 界面交互逻辑简单，用户可轻易上手；
 * 随着时代的进步，现代社会关于艺术层面的观念趋于高追求、高质量、高级别的发展趋势，越来越多人希望在日常生活中得以丰富精神境界。
 
-
-## API使用展示(代码及数据展示加值)
-### API调用过程示例
+### API使用展示(代码及数据展示加值)
+#### API调用过程示例
 ![](https://github.com/ICXIE/API_final/blob/master/API%E8%B0%83%E7%94%A8%E8%BF%87%E7%A8%8B%E7%A4%BA%E4%BE%8B.png?raw=true)
-### 图像识别——通用物体和场景识别API
+#### 图像识别——通用物体和场景识别API
 * 接口描述：该请求用于通用物体及场景识别，即对于输入的一张图片（可正常解码，且长宽比适宜），输出图片中的多个物体及场景标签。
 * 接口地址：[百度智能云之通用物体和场景识别](https://cloud.baidu.com/product/imagerecognition/general)
 * 功能介绍：① 识别物体或场景名称；② 获取百科信息
@@ -110,7 +109,7 @@ APP拥有者 |利 > 害：APP下载量可为拥有者获取收益 | 调用三个
 * 示例代码
 ![](https://github.com/ICXIE/API_final/blob/master/wutiapi.png?raw=true)
 
-### 人脸与人体识别——人流量统计API
+#### 人脸与人体识别——人流量统计API
 * 接口描述：对于输入的一张图片（可正常解码，且长宽比适宜），识别和统计图像当中的人体个数（静态统计，不支持追踪和去重）。适用于3米以上的中远距离俯拍，以头部为主要识别目标统计人数，无需正脸、全身照，适应各类人流密集场景（如：机场、车展、景区、广场等）；默认识别整图中的人数，支持指定不规则区域的人数统计，同时可输出渲染图片。
 * 接口地址：[百度AI之人流量统计](https://ai.baidu.com/tech/body/num)
 * 请求方式：POST
@@ -119,24 +118,24 @@ APP拥有者 |利 > 害：APP下载量可为拥有者获取收益 | 调用三个
 * 示例代码
 ![](https://github.com/ICXIE/API_final/blob/master/renliuapi.png?raw=true)
 
-### web服务API——交通态势
+#### web服务API——交通态势
 * 功能简介：交通态势信息是由当前时刻和未来某一时刻的交通状况信息构成，目前该功能仅对当前时刻对交通状况（路况）信息进行了透出。
 * 请求url：https://restapi.amap.com/v3/traffic/status/rectangle?parameters
 * 示例代码
 ![](https://github.com/ICXIE/API_final/blob/master/jiaotongapi.png?raw=true)
 
-## API使用对比
-### 百度智能云平台：https://cloud.baidu.com/product/imagerecognition/general
+### API使用对比
+#### 百度智能云平台：https://cloud.baidu.com/product/imagerecognition/general
 ![](https://github.com/ICXIE/API_final/blob/master/baiduwuti.png?raw=true)
-### 阿里云开发平台：https://ai.qq.com/product/face.shtml#multiface
+#### 阿里云开发平台：https://ai.qq.com/product/face.shtml#multiface
 ![](https://github.com/ICXIE/API_final/blob/master/aliyunwuti.png?raw=true)
-#### 对比总结：与阿里云的图像识别结果相比，百度智能云的通用物体和场景识别之后得出的信息更加全面，识别结果更为准确；百度的通用物体和场景识别中拍照识物功能更符合本项目的需求。
+##### 对比总结：与阿里云的图像识别结果相比，百度智能云的通用物体和场景识别之后得出的信息更加全面，识别结果更为准确；百度的通用物体和场景识别中拍照识物功能更符合本项目的需求。
 
-### 百度AI开发平台：https://ai.baidu.com/tech/body/num
+#### 百度AI开发平台：https://ai.baidu.com/tech/body/num
 ![](https://github.com/ICXIE/API_final/blob/master/baidurenlian.png?raw=true)
-### 腾讯AI开发平台：https://ai.qq.com/product/face.shtml#multiface
+#### 腾讯AI开发平台：https://ai.qq.com/product/face.shtml#multiface
 ![](https://github.com/ICXIE/API_final/blob/master/tengxunrenlian.png?raw=true)
-#### 对比总结：腾讯AI的多人人脸检测api的输出结果为人脸识别列表，此功能要求图像中的人体需有正脸显示才得以被识别，由于输出结果悬殊故不太适用于人流量识别功能中，而百度AI的人流量统计api为高精度头肩检测算法，无需正脸、全身照，适用于人流密集场所，输出结果是人流量的具体数据，与腾讯AI相比结果更加精准。
+##### 对比总结：腾讯AI的多人人脸检测api的输出结果为人脸识别列表，此功能要求图像中的人体需有正脸显示才得以被识别，由于输出结果悬殊故不太适用于人流量识别功能中，而百度AI的人流量统计api为高精度头肩检测算法，无需正脸、全身照，适用于人流密集场所，输出结果是人流量的具体数据，与腾讯AI相比结果更加精准。
 
 ### 基于数据流程设计分析产品的可行性及用户可欲性
 ##### Viability（商业可行性）：
@@ -158,26 +157,28 @@ APP拥有者 |利 > 害：APP下载量可为拥有者获取收益 | 调用三个
 
 ### [20X20 PPT](https://github.com/ICXIE/API_final/blob/master/Art%20Platform.pptx)
 
-## 实践心得
+### 实践心得
 #### 通过本次API期末项目，个人在实践过程有以下几点思考：
-* 首先，想清楚比做出来更重要，虽然单凭构想具有局限性，但往往比盲目输出更有价值，明白了在项目实践之前就需要想好为什么做，如何做，然后再实施，并且这个过程可以反复几次；其次了解用户痛点后，可以通过将需求拆分成功能点以确定产品的核心价值，在搜寻痛点的过程还需要把眼光放大，思考这是在什么场景下用户遇到一个什么样问题；本项目的API使用及其优先级是通过前期用户画像及使用场景分析，将用户痛点转换为功能点，通过对比其他同类产品，设计及完善原型，在用户满意度与符合当代可持续发展及向善原则中权衡得出价值主张；
-* 本项目能如愿实施，我还要特别感谢百度及高德开放平台的免费资源提供，以下是我使用的智能AI功能调用官方文档链接：
-##### [百度智能云之通用物体和场景识别](https://cloud.baidu.com/product/imagerecognition/general)
-##### [百度AI开发平台之人流量统计](https://ai.baidu.com/tech/body/num)
-##### [高德开放平台之交通态势](https://lbs.amap.com/api/webservice/guide/api/trafficstatus/?sug_index=2)
+#### 首先，想清楚比做出来更重要，虽然单凭构想具有局限性，但往往比盲目输出更有价值，明白了在项目实践之前就需要想好为什么做，如何做，然后再实施，并且这个过程可以反复几次；其次了解用户痛点后，可以通过将需求拆分成功能点以确定产品的核心价值，在搜寻痛点的过程还需要把眼光放大，思考这是在什么场景下用户遇到一个什么样问题；本项目的API使用及其优先级是通过前期用户画像及使用场景分析，将用户痛点转换为功能点，通过对比其他同类产品，设计及完善原型，在用户满意度与符合当代可持续发展及向善原则中权衡得出价值主张；
+#### 本项目能如愿实施，我还要特别感谢百度及高德开放平台的免费资源提供，以下是我使用的智能AI功能调用官方文档链接：
+* [百度智能云之通用物体和场景识别](https://cloud.baidu.com/product/imagerecognition/general)
+* [百度AI开发平台之人流量统计](https://ai.baidu.com/tech/body/num)
+* [高德开放平台之交通态势](https://lbs.amap.com/api/webservice/guide/api/trafficstatus/?sug_index=2)
 
-* 此外，本项目得以完成还参考了往年师姐的作品以及已上线的同领域产品，在一定程度上为我的产品需求文档制作提供帮助，在此向其表示感谢，以下是我参考的作品链接以及相关产品链接：
-##### [詹晓燕师姐的作品](https://github.com/xlayal/Art_Gallery_Tour)
-##### [Vart](http://www.vart.cc/)
-* 最后，还要感谢协作工具，本项目原创图标的制作网站Process On以及Axure原型制作工具：
-##### [Process On官网](https://www.processon.com/)
-##### [Axure官网](https://www.axure.com/)
+#### 此外，本项目得以完成还参考了往年师姐的作品以及已上线的同领域产品，在一定程度上为我的产品需求文档制作提供帮助，在此向其表示感谢，以下是我参考的作品链接以及相关产品链接：
+* [詹晓燕师姐的作品](https://github.com/xlayal/Art_Gallery_Tour)
+* [Vart官网](http://www.vart.cc/)
+#### 最后，还要感谢协作工具，本项目原创图标的制作网站Process On以及Axure原型制作工具：
+* [Process On官网](https://www.processon.com/)
+* [Axure官网](https://www.axure.com/)
 
-### [迭代一最新版本——最新修改为更新实践心得](https://github.com/ICXIE/API_final/commit/444f0c26d2641a4a30dc38545e5ceefb47b1c3b9)
-### [迭代二最新版本——主要改善为上传了API调用过程示例图/利益相关者图/更新系统偏差分析/ESG问题分析](https://github.com/ICXIE/API_final/commit/93063bea5d62ba37815d9d27f828a6ccdc5e851d)
-### [产品迭代二过程一览](https://github.com/ICXIE/API_final/commits/master)
-时间|要点
---|:--:
-2020.07.21|增加API调用过程图示与利益相关者图
-2020.07.22|更新20X20PPT
-2020.07.24|更新系统性偏差分析及ESG问题分析，完善措辞
+#### [产品迭代二过程一览](https://github.com/ICXIE/API_final/commits/master)
+* 增加API调用过程示例图
+* 增加利益相关者图
+* 增加系统偏差分析与ESG问题分析
+#### [产品迭代三过程一览（点击单次提交可查看前后对比）]()
+* 增加基于原型设计分析产品的可行性及用户可欲性
+* 更新基于数据流程设计分析产品的可行性及用户可欲性
+* 更新人工智能类型、系统性偏差以及ESG考量的利益相关者分析
+* 新增用户旅程地图地图
+
