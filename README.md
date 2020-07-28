@@ -56,6 +56,10 @@ APP拥有者 |利 > 害：APP下载量可为拥有者获取收益 | 调用三个
 
 ## 产品原型
 ### [原型跳转链接](https://icxie.github.io/API-prototype/Art%20Platform/#g=1&p=%E4%B8%BB%E9%A1%B5)
+
+### 用户旅程地图
+![](https://github.com/ICXIE/API_final/blob/master/%E7%94%A8%E6%88%B7%E6%97%85%E7%A8%8B%E5%9C%B0%E5%9B%BE.png?raw=true)
+
 ### 产品架构图
 ![](https://github.com/ICXIE/API_final/blob/master/Art+Platform.png?raw=true)
 
@@ -181,4 +185,5 @@ APP拥有者 |利 > 害：APP下载量可为拥有者获取收益 | 调用三个
 * 更新基于数据流程设计分析产品的可行性及用户可欲性
 * 更新人工智能类型、系统性偏差以及ESG考量的利益相关者分析
 * 新增用户旅程地图地图
-
+* 充分解释迭代的增量
+* 完善文档的排版专业度
